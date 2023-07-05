@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    background-image: url(../img/fondo-calle-oscura.jpg);
+    background-size: cover;
+    background-repeat: repeat-x; 
+    color: #ffffff;
+}
+
+
+header {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 250px;
+    background-color: #646464bd;
+    border-radius: 10px;
+}
+
+h1 {
+    text-shadow: 5px 5px 10px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 250px;
+    background-color: #646464bd;
+    border-radius: 10px;
+}
+
+fieldset {
+  /*   border: 2px solid white; */
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+
+}
+select{
+    background-color: transparent;
+    border: none;
+    font-size: 80%;
+    color: #ffffff;
+    outline: none;
+    border-bottom: 1px solid #adadad;
+}
+option{
+    background-color: #757575;
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #646464d3;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #adadad;
+    margin: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    height: 30px;
+}
+
+select{
+    margin: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+.actividades{
+    display: block;
+    text-align: left;
+}
+
+.actividades div p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.actividades p{
+    margin: 5px;
+}
+.contacto input::placeholder{
+    color: #ffffffb0;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+.condiciones{
+    display: block;
+    text-align: left;
+    font-size: 70%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}

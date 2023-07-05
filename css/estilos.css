@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    background-color: #1f2023;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+}
+
+header{
+    margin: 5px 300px;
+    border-width: 20px;
+    border-color: #4d6d63 #1f2023 #4d6d63 #1f2023;
+    border-style: solid;
+
+}
+
+h1{
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 300px;
+    background-color: #d6e2de;
+}
+
+legend{
+    background-color: #4d6d63;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#contanos{
+    height: 80px;
+}
+
+input[type="text"],input[type="number"], #nacionalidad{
+    margin: 15px 100px;
+    height: 30px;
+}
+input:focus{
+    background-color: #4d6d63;
+}
+fieldset:focus-within{
+    background-color: #a6c1b9;
+}
+
+.sexo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+hr{
+    margin: 50px 650px;
+    border: 0px;
+    border-bottom: 20px dotted #90afa9;
+}
+
+input[type="radio"]{
+    margin: 5px;
+}
+select{
+    font-size: 70%;
+}
+
+.contacto input::placeholder{
+    text-align: right;
+    color: #90afa9;
+    font-size: 150%;
+}
+
+.actividades{
+    display: block;
+    text-align: left;
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.condiciones{
+    display: block;
+    color: #ffffff;
+    margin: 20px 300px;
+    text-align: left;
+}
+
+.condiciones input{
+    margin-bottom: 20px ;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    font-size: 100%;
+    color: #90afa9;
+    background-color: #2b3d37;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px 20px 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1f2023;
+}
